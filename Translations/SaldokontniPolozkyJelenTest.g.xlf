@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="SaldokontniPolozkyJelenTest">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 3132718449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Saldokontní položky Jelen Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3132718449 - Control 995090288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Date Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3132718449 - Control 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3132718449 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3132718449 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cust. Ledger Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Posting Date - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
