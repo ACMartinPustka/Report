@@ -1,0 +1,35 @@
+{
+  "id": "3ccd64ec-2a34-4a5c-bdc3-e1b1cf3c2fad",
+  "name": "Report",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "Financial Pack",
+  "description": "Financial Pack",
+  "privacyStatement": "https://www.aricoma.com/about-us/additional-company-information#gdpr",
+  "EULA": "https://www.aricoma.com/getmedia/c3474d77-9fa4-48f8-9c3f-7a66f1ad88c6/aricoma-enterprise-applications-licencing-terms-and-conditions.pdf",
+  "help": "https://www.aricoma.com/docs/cs-cz/dynamics365/business-central/AC-FinancialPack/",
+  "url": "https://www.aricoma.com/docs/cs-cz/dynamics365/business-central/AC-FinancialPack/",
+  "contextSensitiveHelpUrl": "https://www.aricoma.com/docs/{0}/dynamics365/business-central/AC-FinancialPack/",
+  "supportedLocales": [ "en-US", "cs-CZ" ],
+  "logo": "./logo/financial-pack.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 1000000,
+      "to": 1999999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
