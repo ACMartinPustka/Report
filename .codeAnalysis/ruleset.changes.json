@@ -1,7 +1,11 @@
 {
     "name":"Report",
     "description":"Rules",
-    "rules":[
+    "rules":[ 
+        {
+            "id": "AS0084",
+            "action": "None"
+        }
        
     ]
 }

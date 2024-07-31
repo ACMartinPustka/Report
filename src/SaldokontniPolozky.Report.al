@@ -1,13 +1,14 @@
-report 1000000 SaldokontniPolozky_acb
+report 50000 SaldokontniPolozky_acb
 {
     ApplicationArea = All;
     Caption = 'Saldokontní položky Jelen Test';
     DefaultLayout = Excel;
+    ExcelLayoutMultipleDataSheets = true;
     ExcelLayout = './src/SaldokontniPolozkyJelenTest.xlsx';
     UsageCategory = Documents;
     dataset
     {
-        dataitem("Cust. Ledger Entry"; "Cust. Ledger Entry")
+        dataitem("Data_CustLedgerEntry"; "Cust. Ledger Entry")
         {
             column(AcceptedPaymentTolerance; "Accepted Payment Tolerance")
             {
@@ -292,7 +293,7 @@ report 1000000 SaldokontniPolozky_acb
             {
             }
         }
-        dataItem("Vendor Ledger Entry"; "Vendor Ledger Entry")
+        dataitem("Data_VendorLedgerEntry"; "Vendor Ledger Entry")
         {
             column(AcceptedPaymentToleranceVen; "Accepted Payment Tolerance")
             {
@@ -569,27 +570,19 @@ report 1000000 SaldokontniPolozky_acb
         {
             area(Content)
             {
-                group(General)
+                group(Data_CustLedgerEntry)
                 {
-                    field("Posting Date"; "Cust. Ledger Entry"."Posting Date")
+                    field(Open; Data_CustLedgerEntry.Open)
                     {
-                        ApplicationArea = All;
-                        Caption = 'Cust. Ledger Entry';
+                        Caption = 'Open';
+                        ToolTip = 'Open';
+                    }
+                    field(PostingDate; Data_CustLedgerEntry."Posting Date")
+                    {
+                        Caption = 'Posting Date';
                         ToolTip = 'Posting Date';
                     }
-                    field("Date Filter"; "Vendor Ledger Entry"."Date Filter")
-                    {
-                        ApplicationArea = All;
-                        Caption = 'Vendor';
-                        ToolTip = 'Date Filter';
-                    }
                 }
-            }
-        }
-        actions
-        {
-            area(Processing)
-            {
             }
         }
     }

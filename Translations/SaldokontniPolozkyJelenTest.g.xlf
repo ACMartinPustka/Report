@@ -8,25 +8,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 3132718449 - Control 995090288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Date Filter</source>
+        <trans-unit id="Report 3132718449 - Control 4259830144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Date Filter - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Open - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 3132718449 - Control 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vendor</source>
+        <trans-unit id="Report 3132718449 - Control 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Date Filter - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Open - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 3132718449 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 3132718449 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Posting Date - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control PostingDate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 3132718449 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cust. Ledger Entry</source>
+        <trans-unit id="Report 3132718449 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control Posting Date - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SaldokontniPolozky_acb - Control PostingDate - Property Caption</note>
         </trans-unit>
       </group>
     </body>
